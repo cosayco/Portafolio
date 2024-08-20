@@ -1,0 +1,17 @@
+.box{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    color: white;
+    border: solid 2px black;
+    margin: 10px;
+}
+.box-container{
+    background-color: blue;
+    display: flex;
+    height: 300px;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+}
+

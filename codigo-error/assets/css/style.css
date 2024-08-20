@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.productos{
+    display: flex;
+}
+.productos div{
+    margin: 10px;
+}
+
+.container-fluid{
+    margin-top: 2%;
+}
+
+footer{
+    margin-top: 2%;
+    text-align: center;
+    height: 5vh;
+}
+
+.alert {
+    display: none;
+}

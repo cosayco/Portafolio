@@ -1,0 +1,54 @@
+body {
+    background-color: red;
+}
+
+input{
+    background-color: blue; 
+    color: rebeccapurple; 
+    width: 300px; 
+    height: 50px
+}
+label{
+    font-size: xx-large;
+    font-family: 'Lucida Sans';
+    
+}
+
+form{
+    background-color: aquamarine;
+}
+
+
+
+section {
+    background-color: white;
+    height: 200px;
+}
+footer {
+    background-color: rgb(255, 80, 255);
+    height: 50px;
+}
+
+#email{
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+.contenedor{
+    height: 100px;
+    background-color:rgb(159, 212, 53);
+}
+
+article {
+    border: solid 2px black;
+    background-color:yellow ;
+    height: 100px;
+    margin: 30px;
+    padding: 50px;
+}
+
+div {
+    background-color: coral;
+    height: 30px;
+    border: solid 2px black;
+}
