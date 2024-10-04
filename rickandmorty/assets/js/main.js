@@ -1,29 +1,3 @@
-// Consigna: Usando jQuery y Ajax, realiza una petición GET a la API de https://jsonplaceholder.typicode.com/posts y muestra una lista de títulos de publicaciones en una lista desordenada (<ul>). 
-
-// en index: <ul id="listaPosts"></ul>
-
-/* $(document).ready(function () {
-
-    $("#cargarPosts").on("click", function () {
-        $.ajax({
-            url: "https://jsonplaceholder.typicode.com/posts",
-            method: "GET",
-            dataType: "json",
-            success: function (data) {
-                let items = '';
-                for (let i = 0; i < data.length; i++) {
-                    items += `<li>${data[i].title}</li>`;
-                }
-                $("#listaPosts").html(items)
-            },
-            error: function(error){
-                console.log("Hubo un error" , error.message)
-            }
-        })
-    })
-
-})
- */
 //Ejercicio que haremos mañana 04/10/24
 
 // Consigna 
@@ -63,8 +37,9 @@ $(document).ready(function () {
         success: function (data) {
             let html = ""
             for (let i = 0; i < data.results.length; i++) {
-                html += `<div class="card"><h3>${data.results[i].name}</h3>
+                html += `<div class="card">
                             <img class="card-imagen" src="${data.results[i].image}" alt="${data.results[i].name}">
+                            <h2>${data.results[i].name}</h2>
                             <div class="card-cuerpo">
                                 <p>
                                     Estado: ${data.results[i].status}<br>
