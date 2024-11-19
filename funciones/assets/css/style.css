@@ -1,0 +1,27 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    background-color: black;
+    color: white;
+}
+
+.imagenes {
+    display: flex;
+    width: 800px;
+    height: 500px;
+}
+
+.imagenes img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.imagenes img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
