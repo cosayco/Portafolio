@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    background-image: url("../img/hero.jpg");
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
