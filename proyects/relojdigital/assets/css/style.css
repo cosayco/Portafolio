@@ -55,7 +55,7 @@
 .puntos {
     display: inline-block;
     @media (max-width: 600px) {
-        font-size: 10rem;
+        font-size: 9rem;
     }
 
     @media (min-width: 601px) and (max-width: 1200px) {
