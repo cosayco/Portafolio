@@ -12,13 +12,21 @@
          url("../fonts/Hack-Bold.ttf") format("truetype");
 }
 
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #2d2d2d;
+}
+
 .digital-clock {
     background-color: #000;
     color: #fff;
     display: flex;
-    border-radius: 2rem;
+    border-radius: 1rem;
     user-select: none;
-    padding: 0 2rem;
+    padding: 0 1rem;
     width: fit-content;    
     border: 0.5rem solid #2d2d2d;
 }
@@ -27,7 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     width: 3rem;
     color: #2d2d2d;
     font-weight: bold;
@@ -46,7 +54,17 @@
 .min,
 .puntos {
     display: inline-block;
-    font-size: 13rem;
+    @media (max-width: 600px) {
+        font-size: 10rem;
+    }
+
+    @media (min-width: 601px) and (max-width: 1200px) {
+        font-size: 12rem;
+    }
+
+    @media (min-width: 1201px) {
+        font-size: 15rem;
+    }
 }
 
 .min {
